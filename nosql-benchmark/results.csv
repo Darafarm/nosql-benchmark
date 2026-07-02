@@ -1,0 +1,9 @@
+scale_insert,PostgreSQL,10000,10.909,row by row ACID insert
+scale_insert,MongoDB,10000,0.141,insert_many batch
+scale_insert,Redis,10000,0.439,chunked pipeline
+scale_insert,PostgreSQL,100000,91.447,row by row ACID insert
+scale_insert,MongoDB,100000,1.068,insert_many batch
+scale_insert,Redis,100000,4.394,chunked pipeline
+scale_insert,PostgreSQL,1000000,991.822,row by row ACID insert
+scale_insert,MongoDB,1000000,17.288,insert_many batch
+scale_insert,Redis,1000000,48.516,chunked pipeline

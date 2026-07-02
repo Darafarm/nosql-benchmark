@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: benchmark-postgres
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: benchmark
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - "5434:5432"
+
+  mongodb:
+    image: mongo:6
+    container_name: benchmark-mongo
+    ports:
+      - "0.0.0.0:27017:27017"
+
+  redis:
+    image: redis:7
+    container_name: benchmark-redis
+    ports:
+      - "0.0.0.0:6379:6379"
