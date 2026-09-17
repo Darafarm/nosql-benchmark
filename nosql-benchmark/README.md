@@ -12,7 +12,7 @@ A rigorous, reproducible performance benchmark comparing three major database sy
 <img width="5796" height="5485" alt="diagram (1)" src="https://github.com/user-attachments/assets/246b67d4-9e59-4cc4-a724-664f13232a3f" />
 
 
-![Diagram](nosql-benchmark/nosql-benchmark/results/diagram (1).png)
+
 ## What This Project Measures
 
 This benchmark answers one engineering question: for the same data and the same workload, how do PostgreSQL, MongoDB, and Redis compare in terms of speed and why?
