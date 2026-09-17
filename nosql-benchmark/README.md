@@ -9,7 +9,7 @@ Created on Thu Jul  2 17:19:16 2026
 
 A rigorous, reproducible performance benchmark comparing three major database systems on identical workloads at scale. Built as part of an ongoing research project investigating distributed database systems, query optimization, and data engineering infrastructure.
 
-![Diagram](results/diagram (1).png)
+![Diagram](nosql-benchmark/nosql-benchmark/results/diagram (1).png)
 ## What This Project Measures
 
 This benchmark answers one engineering question: for the same data and the same workload, how do PostgreSQL, MongoDB, and Redis compare in terms of speed and why?
