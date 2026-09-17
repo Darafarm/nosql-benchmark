@@ -9,6 +9,9 @@ Created on Thu Jul  2 17:19:16 2026
 
 A rigorous, reproducible performance benchmark comparing three major database systems on identical workloads at scale. Built as part of an ongoing research project investigating distributed database systems, query optimization, and data engineering infrastructure.
 
+<img width="5796" height="5485" alt="diagram (1)" src="https://github.com/user-attachments/assets/246b67d4-9e59-4cc4-a724-664f13232a3f" />
+
+
 ![Diagram](nosql-benchmark/nosql-benchmark/results/diagram (1).png)
 ## What This Project Measures
 
